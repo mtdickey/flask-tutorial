@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+<body>
+  <form method="POST">
+    {{ form.csrf_token }}
+    {{ form.input_1 }}
+    {{ form.input_2 }}
+    <input type="submit" name="Go To Dash">
+  </form>
+</body>
+</html>
